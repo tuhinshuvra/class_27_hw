@@ -1,0 +1,111 @@
+/*Draggable default*/
+#dragg {
+  width: 175px;
+  height: 175px;
+  padding: 0.5em;
+  border-radius: 50%;
+  background-color: skyblue;
+}
+
+/*Draggable event*/
+#draggable { width: 16em; padding: 0 1em; }
+#draggable ul li { margin: 1em 0; padding: 0.5em 0; } * html #draggable ul li { height: 1%; }
+#draggable ul li span.ui-icon { float: left; }
+#draggable ul li span.count { font-weight: bold; }
+
+/*Droppable default*/
+#dragble { 
+ width: 100px;
+ height: 100px;
+ padding: 0.5em;
+ float: left;
+ margin: 10px 10px 10px 0;
+ border-radius: 25px;
+ background-color: greenyellow;
+}
+
+#dropble { 
+ width: 150px;
+ height: 150px; 
+ padding: 0.5em; 
+ /*float: left; */
+ margin: 0 auto; 
+ border-radius: 10px;
+}
+
+/*Droppable photo manager*/
+ #gallery { float: left; width: 65%; min-height: 12em; }
+ .gallery.custom-state-active { background: #eee; }
+ .gallery li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+ .gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+ .gallery li a { float: right; }
+ .gallery li a.ui-icon-zoomin { float: left; }
+ .gallery li img { width: 100%; cursor: move; }
+ 
+ #trash { float: right; width: 32%; min-height: 18em; padding: 1%; }
+ #trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+ #trash h4 .ui-icon { float: left; }
+ #trash .gallery h5 { display: none; }
+
+
+
+
+
+/*Resizable*/
+#resizable {
+   width: 150px; 
+   height: 150px; 
+   padding: 0.5em; 
+}
+#resizable h3 { 
+   text-align: center; 
+   margin: 0; 
+}
+.ui-resizable-helper { 
+   border: 1px dotted gray; 
+}
+
+/*Selectable*/
+#feedback { 
+    font-size: 1.4em; 
+}
+#selectable .ui-selecting { 
+    background: #FECA40; 
+}
+#selectable .ui-selected { 
+    background: #F39814; 
+    color: white; 
+}
+#selectable { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 450px; 
+}
+#selectable li { 
+    margin: 3px; 
+    padding: 1px; 
+    float: left; 
+    width: 100px; 
+    height: 80px; 
+    font-size: 4em; 
+    text-align: center; 
+}
+
+/*Sortable*/
+
+
+#sortable { 
+    list-style-type: none; 
+    margin: 0; padding: 0; 
+    width: 450px; 
+}
+#sortable li { 
+    margin: 3px 3px 3px 0; 
+    padding: 1px; 
+    float: left; 
+    width: 100px; 
+    height: 90px; 
+    font-size: 4em; 
+    text-align: center; 
+}

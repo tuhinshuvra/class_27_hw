@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="jQuery Ui">
+		<meta name="description" content="Personal site for media branding and freelancing">
+		<meta name="keywords" content="Tuhin shuvra, personal, Branding, media, freelancing, tumpa, shoumik">
+		<meta name="robots" content="index, follow">
+		
+		<!-- fonts -->
+		<!-- CSS Link -->
+		<link rel="stylesheet" href="css/jquery-ui.css">
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/widgets1.css">
+		<link rel="stylesheet" href="css/media.css">
+		<title>jQuery Ui</title>
+	</head>
+	
+	<body>
+		<h1 class="text-center bg-secondary">jQuery User Interface</h1>
+		<div class="container">
+			<header>
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="index.html">Home</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Interactions</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="widgets1.html">Widgets1</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="widgets2.html">Widgets2</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="widgets3.html">Widgets3</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="effects_and_utilities.html">Effects & Utilities</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+		</div>
+		
+		<div class="container">
+			<h2 class="text-center bg-secondary">Widgets1</h2>
+			
+			<h3 class="text-center bg-success">Accordion</h3>
+			<div id="accordion">
+				<h3>Section 1</h3>
+				<div>
+					<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+				</div>
+				<h3>Section 2</h3>
+				<div>
+					<p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+				</div>
+				<h3>Section 3</h3>
+				<div>
+					<p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+					<ul>
+						<li>List item</li>
+						<li>List item</li>
+						<li>List item</li>
+						<li>List item</li>
+						<li>List item</li>
+						<li>List item</li>
+						<li>List item</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!-- Auto complete -->
+		<div class="container">
+			<h3 class="text-center bg-success">Auto Complete</h3>
+			<div class="ui-widget">
+				<label for="tags">Tags: </label>
+				<input id="tags">
+			</div>
+		</div><br><br><br>
+
+
+		<!-- button -->
+		<div class="container">
+			<h3 class="text-center bg-success">Button</h3>
+			<button class="btnn ui-button ui-widget ui-corner-all">A button element</button>
+			<input class="inpt ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+			<a class="anc ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+			
+		</div><br><br><br>
+		
+
+		<!-- Checkbox and radio button widgets -->
+		<div class="container">
+			<h3 class="text-center bg-success">Checkbox and radio button widgets</h3>
+			
+			<div class="widget">
+				<h2>Radio Group</h2>
+				<fieldset>
+					<legend>Select a Location: </legend>
+					<label for="radio-1">New York</label>
+					<input type="radio" name="radio-1" id="radio-1">
+					<label for="radio-2">Paris</label>
+					<input type="radio" name="radio-1" id="radio-2">
+					<label for="radio-3">London</label>
+					<input type="radio" name="radio-1" id="radio-3">
+				</fieldset>
+				
+				<h2>Checkbox</h2>
+				<fieldset>
+					<legend>Hotel Ratings: </legend>
+					<label for="checkbox-1">2 Star</label>
+					<input type="checkbox" name="checkbox-1" id="checkbox-1">
+					<label for="checkbox-2">3 Star</label>
+					<input type="checkbox" name="checkbox-2" id="checkbox-2">
+					<label for="checkbox-3">4 Star</label>
+					<input type="checkbox" name="checkbox-3" id="checkbox-3">
+					<label for="checkbox-4">5 Star</label>
+					<input type="checkbox" name="checkbox-4" id="checkbox-4">
+				</fieldset>
+				
+				<h2>Checkbox nested in label</h2>
+				<fieldset>
+					<legend>Bed Type: </legend>
+					<label for="checkbox-nested-1">2 Double
+						<input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+					</label>
+					<label for="checkbox-nested-2">2 Queen
+						<input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+					</label>
+					<label for="checkbox-nested-3">1 Queen
+						<input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+					</label>
+					<label for="checkbox-nested-4">1 King
+						<input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+					</label>
+				</fieldset>
+			</div>
+		</div>
+		 
+		<!-- JS Link -->
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/widgets1.js"></script>
+		
+		
+	</body>
+</html>

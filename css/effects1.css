@@ -1,0 +1,28 @@
+/* Effects - Animate demo */
+.anitogg { width: 500px; height: 200px; position: relative; }
+#anibutton { padding: .5em 1em; text-decoration: none; }
+#anieffect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+#anieffect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+
+/* Effects - Effect demo */
+.toggler { width: 500px; height: 200px; position: relative; }
+#button { padding: .5em 1em; text-decoration: none; }
+#effect { width: 240px; height: 170px; padding: 0.4em; position: relative; }
+#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+.ui-effects-transfer { border: 2px dotted gray; }
+
+
+/*Widget - Default functionality*/
+.custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  .custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }

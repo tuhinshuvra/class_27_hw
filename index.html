@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="jQuery Ui">
+		<meta name="description" content="Personal site for media branding and freelancing">
+		<meta name="keywords" content="Tuhin shuvra, personal, Branding, media, freelancing, tumpa, shoumik">
+		<meta name="robots" content="index, follow">
+		
+		<!-- fonts -->
+		<!-- CSS Link -->
+		<link rel="stylesheet" href="css/jquery-ui.css">
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+		<title>jQuery Ui</title>
+	</head>
+	
+	<body>
+		<h1 class="text-center bg-secondary">jQuery User Interface</h1>
+		<div class="container">
+			<header>
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="index.html">Home</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Interactions</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="widgets1.html">Widgets1</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="widgets2.html">Widgets2</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="widgets3.html">Widgets3</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="effects_and_utilities.html">Effects & Utilities</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+		</div>
+		<!-- header end-->
+		<!-- jQuery User Interface Start -->
+		<div class="container">
+			<div class="row">
+				<h2 class="text-center bg-secondary">Interactions</h2>
+				
+				<!-- Draggable default start -->
+				<h3 class="text-center bg-primary">Draggable</h3>
+				<div class="col-lg-6">
+					<div id="dragg" class="ui-widget-content">
+						<p class="text-center">Drag me around</p>
+					</div>
+					<!-- Draggable default end -->
+				</div>
+				
+				<!-- Draggable event start -->
+				<div class="col-lg-6">
+					<!-- <h3 class="text-center bg-primary">Draggable Events</h3> -->
+					<div id="draggable" class="ui-widget ui-widget-content">
+						
+						<p>Drag me to trigger the chain of events.</p>
+						
+						<ul class="ui-helper-reset">
+							<li id="event-start" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-play"></span>&quot;start&quot; invoked <span class="count">0</span>x</li>
+							<li id="event-drag" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-arrow-4"></span>&quot;drag&quot; invoked <span class="count">0</span>x</li>
+							<li id="event-stop" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-stop"></span>&quot;stop&quot; invoked <span class="count">0</span>x</li>
+						</ul>
+					</div>
+					<!-- Draggable event end -->
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<!-- Dropable default start-->
+				<h3 class="text-center bg-primary">Dropable</h3>
+				<div id="dragble" class="ui-widget-content">
+					<p>Drag me to my target</p>
+				</div>
+				<div id="dropble" class="ui-widget-header ml-auto">
+					<p class="text-center">Drop here</p>
+				</div>
+				<!-- Dropable default end-->
+				
+				<!-- Dropable simple photo manager start-->
+				<div class="ui-widget ui-helper-clearfix">
+					
+					<ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+						<li class="ui-widget-content ui-corner-tr">
+							<h5 class="ui-widget-header">High Tatras</h5>
+							<img src="images/high_tatras_min.jpg" alt="The peaks of High Tatras" width="96" height="72">
+							<a href="images/high_tatras.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+							<a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+						</li>
+						<li class="ui-widget-content ui-corner-tr">
+							<h5 class="ui-widget-header">High Tatras 2</h5>
+							<img src="images/high_tatras2_min.jpg" alt="The chalet at the Green mountain lake" width="96" height="72">
+							<a href="images/high_tatras2.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+							<a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+						</li>
+						<li class="ui-widget-content ui-corner-tr">
+							<h5 class="ui-widget-header">High Tatras 3</h5>
+							<img src="images/high_tatras3_min.jpg" alt="Planning the ascent" width="96" height="72">
+							<a href="images/high_tatras3.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+							<a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+						</li>
+						<li class="ui-widget-content ui-corner-tr">
+							<h5 class="ui-widget-header">High Tatras 4</h5>
+							<img src="images/high_tatras4_min.jpg" alt="On top of Kozi kopka" width="96" height="72">
+							<a href="images/high_tatras4.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+							<a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+						</li>
+					</ul>
+					
+					<div id="trash" class="ui-widget-content ui-state-default">
+						<h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+					</div>
+					
+				</div>
+				<!-- Dropable simple photo manager end-->
+			</div>
+		</div>
+		
+		<!-- Resizeable start-->
+		<div class="container">
+			<div class="row">
+				<h3 class="text-center bg-primary">Resizable</h3>
+				<!-- Resizeable animate-->
+				<div id="resizable" class="ui-widget-content">
+					<h3 class="ui-widget-header">Animate</h3>
+				</div>
+			</div>
+		</div>
+		<!-- Resizeable end--><br><br><br>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h3 class="text-center bg-primary">Selectable</h3>
+					<ol id="selectable">
+						<li class="ui-state-default">1</li>
+						<li class="ui-state-default">2</li>
+						<li class="ui-state-default">3</li>
+						<li class="ui-state-default">4</li>
+						<li class="ui-state-default">5</li>
+						<li class="ui-state-default">6</li>
+						<li class="ui-state-default">7</li>
+						<li class="ui-state-default">8</li>
+						<li class="ui-state-default">9</li>
+						<li class="ui-state-default">10</li>
+						<li class="ui-state-default">11</li>
+						<li class="ui-state-default">12</li>
+					</ol>
+				</div>
+				<!-- Sortable -->
+				<div class="col-lg-6">
+					<h3 class="text-center bg-primary">Sortable</h3>
+					<ul id="sortable">
+						<li class="ui-state-default">1</li>
+						<li class="ui-state-default">2</li>
+						<li class="ui-state-default">3</li>
+						<li class="ui-state-default">4</li>
+						<li class="ui-state-default">5</li>
+						<li class="ui-state-default">6</li>
+						<li class="ui-state-default">7</li>
+						<li class="ui-state-default">8</li>
+						<li class="ui-state-default">9</li>
+						<li class="ui-state-default">10</li>
+						<li class="ui-state-default">11</li>
+						<li class="ui-state-default">12</li>
+					</ul>
+				</div>
+			</div>
+			<!-- JS Link -->
+			<script src="js/jquery-3.6.0.min.js"></script>
+			<script src="js/jquery-ui.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/script.js"></script>
+			
+			
+		</body>
+	</html>
